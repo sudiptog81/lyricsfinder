@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from "./components/layouts/NavBar";
 import Index from "./components/layouts/Index";
 import Lyrics from "./components/tracks/Lyrics";
+import Footer from "./components/layouts/Footer";
 import { Provider } from "./context";
 
 import "./App.css";
-
 class App extends Component {
   render() {
     return (
@@ -20,6 +20,7 @@ class App extends Component {
                 <Route exact path="/lyrics/track/:id" component={Lyrics} />
               </Switch>
             </div>
+            <Footer />
           </React.Fragment>
         </Router>
       </Provider>
