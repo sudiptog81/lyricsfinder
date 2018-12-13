@@ -12,7 +12,7 @@ class Search extends Component {
       .get(
         `https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.search?q_track=${
           this.state.trackTitle
-        }&page_size=10&page=1&s_track_rating=desc&apikey=fd37681ed97e7a0f98678e795ec74f12`
+        }&page_size=10&page=1&s_track_rating=desc&apikey=${"fd37681ed97e7a0f98678e795ec74f12"}`
       )
       .then(res => {
         dispatch({
