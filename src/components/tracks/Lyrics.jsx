@@ -14,7 +14,7 @@ class Lyrics extends Component {
       .get(
         `https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.lyrics.get?track_id=${
           this.props.match.params.id
-        }&apikey=${process.env.MM_KEY || "fd37681ed97e7a0f98678e795ec74f12"}`
+        }&apikey=fd37681ed97e7a0f98678e795ec74f12`
       )
       .then(res => {
         this.setState({
@@ -23,7 +23,7 @@ class Lyrics extends Component {
         return axios.get(
           `https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.get?track_id=${
             this.props.match.params.id
-          }&apikey=${process.env.MM_KEY || "fd37681ed97e7a0f98678e795ec74f12"}`
+          }&apikey=fd37681ed97e7a0f98678e795ec74f12`
         );
       })
       .then(res => {

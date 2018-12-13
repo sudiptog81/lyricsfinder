@@ -26,7 +26,7 @@ npm start
 
 ### Version
 
-0.1.1
+0.1.3
 
 ### License
 
