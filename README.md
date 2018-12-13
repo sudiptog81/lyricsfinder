@@ -6,7 +6,7 @@
 
 ### API Configuration
 
-Sign up for a Developer account at [MusixMatch](https://developer.musixmatch.com) and get the API key for this app to work. Scan through all the files in this repo and change _process.env.MM_KEY_ to the API key that you get from MusixMatch
+Sign up for a Developer account at [MusixMatch](https://developer.musixmatch.com) and get the API key for this app to work. Scan through all the files in this repo and change my API key to the one that you get from MusixMatch.
 
 ### Running the app
 
@@ -26,7 +26,7 @@ npm start
 
 ### Version
 
-0.1.3
+0.1.5
 
 ### License
 
