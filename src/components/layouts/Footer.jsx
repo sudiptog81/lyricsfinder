@@ -8,7 +8,7 @@ const Footer = () => {
           &lt;&nbsp;Code on&nbsp;
           <a
             style={{ color: "#ffffff" }}
-            href="https://raw.githubusercontent.com/sudiptog81/lyricsfinder"
+            href="https://github.com/sudiptog81/lyricsfinder"
           >
             GitHub
           </a>
