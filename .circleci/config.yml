@@ -26,9 +26,15 @@ jobs:
             npm test -- --coverage
             ./cc-test-reporter after-build --exit-code $?
 
+      - run:
+          shell: /bin/bash
+          command: |
+            mkdir test
+          when: always
+
       - store_test_results:
-          path: ~/repo/coverage
+          path: ~/repo/test
 
       - store_artifacts:
-          path: ~/repo/coverage
-          destination: coverage
+          path: ~/repo/test
+          destination: test
