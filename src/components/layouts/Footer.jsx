@@ -2,12 +2,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="page-footer bg-dark text-center text-white mt-0 p-2 fixed-bottom">
+    <footer className="page-footer bg-white text-center text-dark mt-0 p-2">
       <div className="footer-copyright">
         <div className="container-fluid">
           &lt;&nbsp;Code on&nbsp;
           <a
-            style={{ color: "#ffffff" }}
+            className="text-dark"
             href="https://github.com/sudiptog81/lyricsfinder"
           >
             GitHub
