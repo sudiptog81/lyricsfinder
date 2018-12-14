@@ -46,36 +46,44 @@ class Lyrics extends Component {
     } else {
       return (
         <React.Fragment>
-          <Link to="/" className="btn btn-dark mb-4">
-            <i className="fas fa-chevron-left" /> Back
-          </Link>
-          <h1 className="h1 text-center mb-4 mt-0">
+          <div className="display-flex">
+            <Link to="/" className="btn btn-dark float-left">
+              <i className="fas fa-chevron-left" /> <span>Back</span>
+            </Link>
+            <a
+              href="https://github.com/sudiptog81/lyricsfinder/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-dark float-right"
+            >
+              <span>Code</span> <i className="fas fa-chevron-right" />
+            </a>
+          </div>
+          <h1
+            className="h1 text-center display-block"
+            style={{ paddingTop: "50px", paddingBottom: "16px" }}
+          >
             {track.track_name} by{" "}
             <span className="text-secondary">{track.artist_name}</span>
           </h1>
           <div className="card">
             <div className="card-body">
-              <p className="card-text">{lyrics.lyrics_body}</p>
+              <p className="card-text" style={{ whiteSpace: "pre-wrap" }}>
+                {lyrics.lyrics_body}
+                <br />
+                <span className="text-muted">{lyrics.lyrics_copyright}</span>
+              </p>
             </div>
           </div>
 
-          <ul className="list-group mt-3">
+          <ul className="list-group mt-3 mb-3">
             <li className="list-group-item">
-              <strong>Album Name</strong>: {track.album_name}
-            </li>
-            {/* <li className="list-group-item">
-              <strong>Genre</strong>:{" "}
-              {
-                track.primary_genres.music_genre_list[0].music_genre
-                  .music_genre_name
-              }
+              <i className="fas fa-headphones-alt" />
+              &nbsp;&nbsp;<strong>Album Name</strong>: {track.album_name}
             </li>
             <li className="list-group-item">
-              <strong>Explicit Words</strong>:{" "}
-              {track.explicit === 0 ? "Yes" : "No"}
-            </li> */}
-            <li className="list-group-item">
-              <strong>Release Year</strong>:{" "}
+              <i className="far fa-calendar-plus" />
+              &nbsp;&nbsp;<strong>Release Year</strong>:{" "}
               <Moment format="YYYY">{track.first_release_date}</Moment>
             </li>
           </ul>
