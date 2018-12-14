@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "LyricsFinder",
+  "name": "find lyrics for your favourite songs",
   "icons": [
     {
       "src": "favicon.ico",
