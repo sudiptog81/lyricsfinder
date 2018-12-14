@@ -33,8 +33,7 @@ jobs:
           when: always
 
       - store_test_results:
-          path: ~/repo/test
+          path: ./coverage
 
       - store_artifacts:
-          path: ~/repo/test
-          destination: test
+          path: ./coverage
