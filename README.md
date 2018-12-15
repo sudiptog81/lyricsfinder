@@ -1,7 +1,6 @@
 # LyricsFinder
 
-[![build passing](
-https://img.shields.io/appveyor/ci/sudiptog81/lyricsfinder.svg?logo=appveyor&style=flat-square)](https://github.com/sudiptog81/lyricsfinder) [![build passing](https://img.shields.io/circleci/project/github/sudiptog81/lyricsfinder.svg?logo=circleci&style=flat-square)](https://github.com/sudiptog81/lyricsfinder) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/sudiptog81/lyricsfinder/issues) [![Dependency Status](https://img.shields.io/david/sudiptog81/lyricsfinder.svg?style=flat-square)](https://david-dm.org/sudiptog81/lyricsfinder) [![devDependencies Status](https://img.shields.io/david/dev/sudiptog81/lyricsfinder.svg?style=flat-square)](https://david-dm.org/sudiptog81/lyricsfinder?type=dev)
+[![build passing](https://img.shields.io/appveyor/ci/sudiptog81/lyricsfinder.svg?logo=appveyor&style=flat-square)](https://github.com/sudiptog81/lyricsfinder) [![build passing](https://img.shields.io/circleci/project/github/sudiptog81/lyricsfinder.svg?logo=circleci&style=flat-square)](https://github.com/sudiptog81/lyricsfinder) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/sudiptog81/lyricsfinder/issues) [![Dependency Status](https://img.shields.io/david/sudiptog81/lyricsfinder.svg?style=flat-square)](https://david-dm.org/sudiptog81/lyricsfinder) [![devDependencies Status](https://img.shields.io/david/dev/sudiptog81/lyricsfinder.svg?style=flat-square)](https://david-dm.org/sudiptog81/lyricsfinder?type=dev)
 
 > Lyrics finder app for music lovers. This React app uses MusixMatch API, React Router, Moment and Axios.
 

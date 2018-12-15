@@ -33,7 +33,7 @@ jobs:
           when: always
 
       - store_test_results:
-          path: ./coverage
+          path: ./coverage/clover.xml
 
       - store_artifacts:
           path: ./coverage
