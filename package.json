@@ -1,6 +1,6 @@
 {
   "name": "lyricsfinder",
-  "version": "0.2.0",
+  "version": "0.3.2",
   "private": true,
   "engines": {
     "npm": "6.4.1",

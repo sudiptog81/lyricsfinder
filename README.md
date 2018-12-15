@@ -30,7 +30,7 @@ npm start
 
 ### Version
 
-0.2.0
+0.3.2
 
 ### License
 
